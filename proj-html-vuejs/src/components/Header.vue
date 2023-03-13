@@ -130,6 +130,22 @@
             
 
     </div>
+
+    <!-- TERZA NAVBAR -->
+
+    <div class=" blue-bar">
+        <div class="row">
+            <div class="col-11">
+                <ul class="product-list">
+                    <li> <i class="fa-solid fa-chart-line"></i> Business</li>
+                    <li><i class="fa-solid fa-palette"></i>Deisgn</li>
+                    <li><i class="fa-solid fa-gear"></i>Development</li>
+                    <li><i class="fa-solid fa-face-smile"></i>Lifestyle</li>
+                    <li><i class="fa-solid fa-print"></i>Office Productivity</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     
 
 
@@ -219,4 +235,23 @@
     margin-top: 20px;
     
   }
+
+  /**Blue bar RULES */
+  .blue-bar{
+    background-color:#273044 ;
+    color: white;
+    margin-top: -10px;
+ }
+
+ .product-list{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    padding: 20px;
+    padding-top: 30px;
+ }
+
+ .blue-bar i{
+    margin-right: 10px;
+ }
   </style>
