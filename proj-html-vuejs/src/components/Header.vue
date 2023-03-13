@@ -19,67 +19,67 @@
         <div class="col-4">
            <nav class="navbar navbar-expand-lg">
     <!-- Container wrapper -->
-       <div class="container">
+           <div class="container">
         
-        <div class="collapse navbar-collapse" id="navbarButtonsExample">
-            <!-- Menù links -->
-            <ul class="navbar-nav  mb-2 mb-lg-0 text-secondary">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pages</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Course Formats</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Courses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Demos</a>
-                </li>
-            </ul>
+              <div class="collapse navbar-collapse" id="navbarButtonsExample">
+                <!-- Menù links -->
+                 <ul class="navbar-nav  mb-2 mb-lg-0 text-secondary">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Course Formats</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Demos</a>
+                    </li>
+                </ul>
             
              <!-- Social icons -->
-            <ul class="navbar-nav d-flex flex-row text-secondary">
+                 <ul class="navbar-nav d-flex flex-row text-secondary">
                 <!-- Icons -->
-                <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link" href="#">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                </li>
-                <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link" href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link" href="#">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-                <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link" href="#">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link" href="#">
-                        <i class="fa-brands fa-google-plus"></i>
-                    </a>
-                </li>
-                <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link" href="#">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </li>
+                   <li class="nav-item me-3 me-lg-0">
+                      <a class="nav-link" href="#">
+                         <i class="fa-brands fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                      <a class="nav-link" href="#">
+                         <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                       <a class="nav-link" href="#">
+                         <i class="fa-brands fa-instagram"></i>
+                       </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                      <a class="nav-link" href="#">
+                         <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-0">
+                      <a class="nav-link" href="#">
+                         <i class="fa-brands fa-google-plus"></i>
+                      </a>
+                   </li>
+                   <li class="nav-item me-3 me-lg-0">
+                      <a class="nav-link" href="#">
+                         <i class="fa-brands fa-youtube"></i>
+                      </a>
+                  </li>
             </ul>
         </div>
         
     </div>
    
-</nav>
+         </nav>
 
 
         </div>
@@ -87,6 +87,50 @@
      </div>
      
     </header>
+
+    <!-- SECONDA NAVBAR -->
+
+    <div class="container-navbar">
+
+        <div class="row p-4">
+           
+            <div class="col-2 logo">
+                <img src="../assets/img/MasterStudy.svg" alt="logo">
+            </div>
+
+            <!-- Navbar brand -->
+            <div class="col-4 d-flex navbar-search">
+                
+                <i class="fa-solid fa-bars pt-3"></i> <p class="text-uppercase text-secondary px-2 pt-3">Category</p>
+                 <!-- Search form -->
+             <form class="input-group input-secondnav">
+                <input type="search" class="form-control" placeholder="Search courses" aria-label="Search" />
+                   <button class="btn button-search" type="button" data-mdb-ripple-color="dark" style="padding: .45rem 1.5rem .35rem;">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+              </form>
+            </div>
+
+            <!-- Pulsanti -->
+            <div class="col-5 d-flex">
+                <ul class="d-flex button-list">
+                    <li> <i class="fa-solid fa-bullhorn"></i> Become an Instructor</li>
+                    <li> <i class="fa-solid fa-briefcase"></i>  For Enterprise</li>
+                </ul>
+                <ul class="d-flex button-list-2">
+                    <li><i class="fa-regular fa-user"></i>  Log In</li>
+                    <li><button class="sign-up"><p> Sign up</p></button></li>
+                    <li class="bookmark"><i class="fa-regular fa-bookmark"></i></li>
+                </ul>
+            </div>
+        </div>
+    
+           
+
+            
+
+    </div>
+    
 
 
 
@@ -109,5 +153,70 @@
     color:#457992 ;
   }
 
-  
+  /**SEARCH NAVBAR RULES */
+  .navbar-search P {
+    font-size: 13px;
+    
+  }
+
+  .form-control{
+    background-color: #F0F2F5;
+    border-radius: 0;
+  }
+
+  .button-search{
+    color: white;
+    border-radius: 0;
+    background-color: #457992;
+  }
+
+  .input-secondnav{
+    height: 20px;
+    width: 900px;
+    margin-top: 10px;
+  }
+
+  .logo{
+    margin-left: 40px;
+    margin-top: 5px;
+  }
+
+  .button-list{
+    display: flex;
+    gap: 30px;
+   padding-top: 20px;
+  }
+
+  .button-list-2{
+    display: flex;
+    gap: 30px;
+   padding-top: 20px;
+   margin-left: 80px;
+  }
+
+  .button-list i,.button-list-2 i {
+    color: #457992;
+    margin-right: 5px;
+  }
+
+  .bookmark i {
+    font-size: 26px;
+    margin-right: 20px;
+  }
+
+  .sign-up{
+    background-color: #FF4450;
+    color: white;
+    border: 1px solid #FF4450;
+    border-radius: 30px;
+    width: 130px;
+    margin-top: -20px;
+  }
+  .sign-up p{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    
+  }
   </style>
