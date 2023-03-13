@@ -114,8 +114,8 @@
             <!-- Pulsanti -->
             <div class="col-5 d-flex">
                 <ul class="d-flex button-list">
-                    <li> <i class="fa-solid fa-bullhorn"></i> Become an Instructor</li>
-                    <li> <i class="fa-solid fa-briefcase"></i>  For Enterprise</li>
+                    <li> <i class="fa-solid fa-bullhorn"></i> <a href=""> Become an Instructor</a></li>
+                    <li> <i class="fa-solid fa-briefcase"></i>  <a href="">For Enterprise</a></li>
                 </ul>
                 <ul class="d-flex button-list-2">
                     <li><i class="fa-regular fa-user"></i>  Log In</li>
@@ -137,11 +137,11 @@
         <div class="row">
             <div class="col-11">
                 <ul class="product-list">
-                    <li> <i class="fa-solid fa-chart-line"></i> Business</li>
-                    <li><i class="fa-solid fa-palette"></i>Deisgn</li>
-                    <li><i class="fa-solid fa-gear"></i>Development</li>
-                    <li><i class="fa-solid fa-face-smile"></i>Lifestyle</li>
-                    <li><i class="fa-solid fa-print"></i>Office Productivity</li>
+                    <li> <i class="fa-solid fa-chart-line"></i><a href="">Business</a>   </li>
+                    <li><i class="fa-solid fa-palette"></i><a href="">Design</a> </li>
+                    <li><i class="fa-solid fa-gear"></i><a href="">Development</a> </li>
+                    <li><i class="fa-solid fa-face-smile"></i><a href="">Lifestyle</a> </li>
+                    <li><i class="fa-solid fa-print"></i><a href="">Office Productivity</a> </li>
                 </ul>
             </div>
         </div>
@@ -183,6 +183,9 @@
   .button-search{
     color: white;
     border-radius: 0;
+    background-color: #457992;
+  }
+  .button-search:hover{
     background-color: #457992;
   }
 
@@ -236,6 +239,11 @@
     
   }
 
+  .sign-up:hover{
+    background-color:#457992 ;
+    border: 1px solid #457992;
+  }
+
   /**Blue bar RULES */
   .blue-bar{
     background-color:#273044 ;
@@ -250,7 +258,7 @@
     padding: 20px;
     padding-top: 30px;
  }
-
+ 
  .blue-bar i{
     margin-right: 10px;
  }
