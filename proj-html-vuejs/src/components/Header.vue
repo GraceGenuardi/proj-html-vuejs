@@ -1,7 +1,7 @@
 <template>
     
     <header class="main-header">
-     <div class="row d-flex justify-content-between">
+     <div class=" d-flex justify-content-between">
         <!-- SELECT LINGUA  -->
         <div class="col-3 px-5 pt-3">
             <div class="select-wrapper">
@@ -22,13 +22,11 @@
            <div class="container">
         
               <div class="collapse navbar-collapse" id="navbarButtonsExample">
-                <!-- Menù links -->
-                 <ul class="navbar-nav  mb-2 mb-lg-0 text-secondary">
-                  <li v-for="item in items">{{ item.message }}</li>
-                  <li v-for="item in items">{{ item.messagetwo }}</li>
-                  <li v-for="item in items">{{ item.messagethree }}</li>
-                  <li v-for="item in items">{{ item.messagefour }}</li>
-                  <li v-for="item in items">{{ item.messagefive }}</li>
+                <!-- Menù links USO JS-->
+                <ul class="d-flex gap-3 mt-3 text-secondary">
+                  <li v-for="(item, index) in menuItems" :key="index">
+                    <a :href="item.url">{{ item.title }}</a>
+                  </li>
                 </ul>
             
              <!-- Social icons -->
@@ -82,7 +80,7 @@
 
     <div class="container-navbar">
 
-        <div class="row p-4">
+        <div class="row p-2">
            
             <div class="col-2 logo">
                 <img src="../assets/img/MasterStudy.svg" alt="logo">
@@ -145,9 +143,14 @@
   <script>
   import axios from "axios";
 export default {
-  data() {
+data() {
   return {
-    items: [{ message: 'Home',messagetwo: 'Pages',messagetwo: 'Course Formats',messagethree: 'Courses',messagefour: 'Demos',messagefive: 'Pages' }]
+    menuItems: [
+      { title: 'Home', url: '/' },
+      { title: 'Pages', url: '/pages' },
+      { title: 'Course Format', url: '/course' },
+      { title: 'Demo', url: '/demo' },
+    ]
   }
 }
 }
@@ -203,7 +206,7 @@ export default {
 
   .button-list{
     display: flex;
-    gap: 30px;
+    gap: 10px;
    padding-top: 20px;
   }
 
@@ -211,12 +214,12 @@ export default {
     display: flex;
     gap: 30px;
    padding-top: 20px;
-   margin-left: 80px;
+   margin-left: 50px;
   }
 
   .button-list i,.button-list-2 i {
     color: #457992;
-    margin-right: 5px;
+
   }
 
   .bookmark i {
