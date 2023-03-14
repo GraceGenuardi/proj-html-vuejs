@@ -24,21 +24,11 @@
               <div class="collapse navbar-collapse" id="navbarButtonsExample">
                 <!-- Menù links -->
                  <ul class="navbar-nav  mb-2 mb-lg-0 text-secondary">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Pages</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Course Formats</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Demos</a>
-                    </li>
+                  <li v-for="item in items">{{ item.message }}</li>
+                  <li v-for="item in items">{{ item.messagetwo }}</li>
+                  <li v-for="item in items">{{ item.messagethree }}</li>
+                  <li v-for="item in items">{{ item.messagefour }}</li>
+                  <li v-for="item in items">{{ item.messagefive }}</li>
                 </ul>
             
              <!-- Social icons -->
@@ -153,7 +143,14 @@
 </template>
   
   <script>
-  
+  import axios from "axios";
+export default {
+  data() {
+  return {
+    items: [{ message: 'Home',messagetwo: 'Pages',messagetwo: 'Course Formats',messagethree: 'Courses',messagefour: 'Demos',messagefive: 'Pages' }]
+  }
+}
+}
 </script>
 
   
@@ -167,6 +164,10 @@
 
   a:hover{
     color:#457992 ;
+  }
+
+  .navbar-nav li {
+    margin-right: 20px;
   }
 
   /**SEARCH NAVBAR RULES */

@@ -1,6 +1,4 @@
-*{
-  font-family: 'Roboto', sans-serif;
-}
+
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -51,9 +49,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.card {
-  padding: 2em;
-}
+
 
 
 
