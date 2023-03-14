@@ -4,6 +4,7 @@
   <Courses/>
   <Main/>
   <Popular/>
+  <Start/>
   
   
   
@@ -15,6 +16,7 @@
   import Courses from './components/Courses.vue';
   import Main from './components/Main.vue';
   import Popular from './components/Popular.vue';
+  import Start from './components/Start.vue';
   
   export default {
     components: {
@@ -23,6 +25,7 @@
       Courses,
       Main,
       Popular,
+      Start
     }
   }
 </script>
