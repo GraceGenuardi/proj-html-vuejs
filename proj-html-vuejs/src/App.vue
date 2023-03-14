@@ -3,6 +3,8 @@
   <Sales />
   <Courses/>
   <Main/>
+  <Popular/>
+  
   
   
 </template>
@@ -12,6 +14,7 @@
   import Sales from './components/Sales.vue';
   import Courses from './components/Courses.vue';
   import Main from './components/Main.vue';
+  import Popular from './components/Popular.vue';
   
   export default {
     components: {
@@ -19,6 +22,7 @@
       Sales,
       Courses,
       Main,
+      Popular,
     }
   }
 </script>

@@ -1,10 +1,16 @@
 <template>
-    <div class="courses mb-5">
+    <div class="popular">
 
         <div class="row">
-            <h4 class="mt-5 pt-5 mx-5 px-5 mb-5 ">Popular development courses</h4>
-            <!-- CARD CORSI -->
-            <ul class="d-flex gap-4 mx-5 px-5">
+
+            <div class="title text-center">
+              <h1 >Popular courses</h1>
+             <p class="fs-5">Discover our most popular courses for self learning</p>
+           </div>
+            <!-- CAROSELLO -->
+             
+      <!-- CARD CORSI -->
+      <ul class="d-flex gap-4 mx-5 px-5">
                 <li>
                     <div class="card" style="width: 17rem;">
                        <img class="card-img-top" src="../assets/img/895786_7b4b_2-544x322.jpg" alt="Card image cap">
@@ -177,10 +183,14 @@
                     </div>
                 </li>
             </ul>
-        </div>
-          
-        
-    </div>
+
+            <div class="buttons d-flex justify-content-center">
+                 <button class="arrow"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="arrow"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+    </div> 
+</div>
 
 
 </template>
@@ -194,8 +204,19 @@
   @use '../style/partials/variables' as *;
   
   
- /**Card rules* */
  
+ 
+ .title{
+    color:#334453;
+    padding-top: 80px;
+    padding-bottom: 20px;
+ }
+
+ .popular{
+    background-color: #F4FAFF;
+ }
+
+ /**Card rules* */
  .card{
     border-radius: 0;
     height: 350px;
@@ -205,6 +226,14 @@
  .card-img-top{
     width: 270px;
     border-radius: 0;
+   
+ }
+
+ 
+
+ .card-img-top:hover {
+    transform: scale(1.1);
+    
  }
 
  .stars {
@@ -219,5 +248,20 @@
     display: flex;
     flex-direction: column;
     
+}
+
+/**BUTTON RULES */
+.arrow{
+    border: 1px solid rgba(194, 192, 192, 0.591);
+    padding: 10px;
+    width: 50px;
+    color: rgb(194, 192, 192);
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.arrow:hover{
+    background-color: #457993;
 }
   </style>

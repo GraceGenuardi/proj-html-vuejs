@@ -449,6 +449,11 @@ data() {
     margin-top: 20px;
     text-transform: uppercase;
 }
+
+.read-more:hover{
+    background-color: #e05f68;
+    border: 1px solid #e05f68;
+}
   /**MAIN CURSES RULES */
   .navbar-course li{
     color: #457992;
