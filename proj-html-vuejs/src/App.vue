@@ -2,6 +2,7 @@
   <Header />
   <Sales />
   <Courses/>
+  <Main/>
   
   
 </template>
@@ -10,12 +11,14 @@
   import Header from './components/Header.vue';
   import Sales from './components/Sales.vue';
   import Courses from './components/Courses.vue';
+  import Main from './components/Main.vue';
   
   export default {
     components: {
       Header,
       Sales,
       Courses,
+      Main,
     }
   }
 </script>
