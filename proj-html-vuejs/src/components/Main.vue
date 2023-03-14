@@ -376,6 +376,32 @@
    </div>
 
 
+   <!-- SEARCHBAR AREA -->
+
+   <div class=" row search-main d-flex gap-5 justify-content-center">
+    <div class="col-4 ">
+        <h4>Subscribe our newsletter</h4>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words
+        </p>
+    </div>
+
+
+    <div class="col-3">
+        <p>YOUR E-MAIL ADDRESS</p>
+        <form class="input-group input-secondnav text-secondary">
+                <input type="search" class="form-control" placeholder="Enter your E-mail" aria-label="Search" />
+                   <button class="btn button-search" type="button" data-mdb-ripple-color="dark" style="padding: .45rem 1.5rem .35rem;">
+                    Subscribe
+                    </button>
+        </form>
+
+
+    </div>
+        
+
+   </div>
+
+
 </template>
   
 <script>
@@ -467,11 +493,37 @@ data() {
     margin-top: 50px;
     margin-left: 300px;
     margin-bottom: 100px;
-    background-color: #457992;
-    border: 1ps solid #457992;
+    background-color:#FF4550 ;
     border-radius: 40px;
     padding: 20px;
     color: white;
     width: 150px;
+}
+
+.show-button:hover{
+    background-color: #457992;
+}
+
+/**SEARCH MAIN RULES */
+.search-main{
+    background-color: #FF4550;
+}
+
+.col-4 {
+    padding: 30px;
+    margin-left: 100px;
+    color: white;
+}
+
+.col-3{
+    color: white;
+    padding-top: 30px;
+}
+
+.button-search{
+    text-transform: uppercase;
+    color: white;
+    background-color: #457992;
+    border-radius: 0;
 }
   </style>
