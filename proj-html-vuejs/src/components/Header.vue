@@ -88,8 +88,9 @@
 
             <!-- Navbar brand -->
             <div class="col-4 d-flex navbar-search">
-                
-                <i class="fa-solid fa-bars pt-3"></i> <p class="text-uppercase text-secondary px-2 pt-3">Category</p>
+                 <div class="category d-flex pt-1">
+                    <i class="fa-solid fa-bars pt-3"></i> <p class="text-uppercase m-3">Category</p>
+                </div>
                  <!-- Search form -->
              <form class="input-group input-secondnav">
                 <input type="search" class="form-control" placeholder="Search courses" aria-label="Search" />

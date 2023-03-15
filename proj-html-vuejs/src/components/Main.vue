@@ -57,6 +57,15 @@
 
                               </ul>
                             </div>
+
+
+                            <div class="hover-card">
+                              <div class="card-body">
+                              <p>The WordPress plugin is a part of the Masterstudy WordPress theme for the education business. Upgrading to the theme is optional but does come with...</p>
+                               <button>Preview this course</button>
+                            </div>
+                                
+                            </div>
                     </div>
             </li>
             <li>
@@ -530,5 +539,32 @@ data() {
     color: white;
     background-color: #457992;
     border-radius: 0;
+}
+
+/**HOVER CARD */
+.hover-card {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 250px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.hover-card button {
+  background-color: #457993;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.hover-card button:hover{
+  background-color: rgb(220, 56, 78);
+}
+
+.card:hover .hover-card {
+  display: block;
 }
   </style>
