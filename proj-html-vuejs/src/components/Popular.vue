@@ -35,7 +35,19 @@
 
                               </ul>
                             </div>
+
+                            <div class="hover-card">
+                              <div class="card-body">
+                              <h3>The Complete iOS 10 & Swift 3 Developer Course</h3>
+                              <hr>
+                              <p>The WordPress plugin is a part of the Masterstudy WordPress theme for the education business. Upgrading to the theme is optional but does come with...</p>
+                               <button>Preview this course</button>
+                            </div>
+                                
+                            </div>
                     </div>
+
+                   
                 </li>
 
 
@@ -197,6 +209,7 @@
   
 <script>
 
+
 </script>
 
   
@@ -264,4 +277,33 @@
 .arrow:hover{
     background-color: #457993;
 }
+
+
+/**HOVER CARD */
+.hover-card {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.hover-card button {
+  background-color: #457993;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.hover-card button:hover{
+  background-color: rgb(220, 56, 78);
+}
+
+.card:hover .hover-card {
+  display: block;
+}
+
   </style>

@@ -6,6 +6,7 @@
   <Popular/>
   <Start/>
   <Future/>
+  <Footer/>
   
   
   
@@ -19,6 +20,7 @@
   import Popular from './components/Popular.vue';
   import Start from './components/Start.vue';
   import Future from './components/Future.vue';
+  import Footer from './components/Footer.vue';
   
   export default {
     components: {
@@ -28,7 +30,8 @@
       Main,
       Popular,
       Start,
-      Future
+      Future,
+      Footer
     }
   }
 </script>

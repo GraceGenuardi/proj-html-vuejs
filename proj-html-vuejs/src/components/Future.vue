@@ -1,5 +1,7 @@
 <template>
-    <div class="future">
+   
+      <div class="future">
+        <div class="row">
 
         <div class="col-5 ">
             <h2 class="fs-1 mb-4">Investing for Your Future</h2>
@@ -8,10 +10,13 @@
             <p class="fw-lighter lh-4">Product Manager, Apple Inc</p>
         </div>
 
+      </div>
+
+      </div>
         
             
         
-    </div>
+    
 
 
 </template>
@@ -28,15 +33,16 @@
     background-image: url(../assets/img/testimonial-1-1917x640-1-1914x639.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    padding-top: 200px;
-    padding-bottom: 500px;
+    padding: 100px;
+
+    
   
   }
   
   .col-5 {
     background-color: white;
     padding: 80px;
-    margin-top:-150px;
+    margin-top: -50px;
     margin-left: 300px;
     
   }
