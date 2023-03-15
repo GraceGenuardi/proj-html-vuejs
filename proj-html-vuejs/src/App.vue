@@ -5,6 +5,7 @@
   <Main/>
   <Popular/>
   <Start/>
+  <Future/>
   
   
   
@@ -17,6 +18,7 @@
   import Main from './components/Main.vue';
   import Popular from './components/Popular.vue';
   import Start from './components/Start.vue';
+  import Future from './components/Future.vue';
   
   export default {
     components: {
@@ -25,7 +27,8 @@
       Courses,
       Main,
       Popular,
-      Start
+      Start,
+      Future
     }
   }
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <div class="start d-flex justify-content-center gap-4 mt-5 pt-3">
+    <div class="start d-flex justify-content-center gap-4 mt-5 pt-3 mb-5 pb-5">
        <div class="col-5 d-flex">
          <div class="immagine">
             <img src="../assets/img/image_box_1-221x231.png" alt="Instructor">
@@ -30,13 +30,11 @@
 </template>
   
 <script>
-
 </script>
 
   
   <style lang="scss" scoped>
   @use '../style/partials/variables' as *;
-
   .col-5 {
     border: 1px solid grey;
     padding-top: 100px;
@@ -58,7 +56,6 @@
     text-transform: uppercase;
     font-weight: bold;
 }
-
 .button-start:hover{
     background-color: #31cea2;
     border: #31cea2;

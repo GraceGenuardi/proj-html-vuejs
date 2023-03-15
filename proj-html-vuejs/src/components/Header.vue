@@ -6,7 +6,7 @@
         <div class="col-3 px-5 pt-3">
             <div class="select-wrapper">
 
-               <select id="defaultSelect" class="border border-light text-secondary">
+               <select id="defaultSelect" class="border border-light text-secondary bg-light">
                  <option selected="" value="">English</option>
                  <option value="Value 1">Deutsch</option>
                  <option value="Value 2">Italian</option>
